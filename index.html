@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Bookmark landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,32 +16,95 @@
 </head>
 <body>
 
-  Features
-  Pricing
-  Contact
-  Login
+  <!-- Navbar Section-->
+<nav class="navbar">
+  <div class="nav__logo">
+    <img src="images/logo-bookmark.svg" alt="logo" class="logo">
+  </div>
+  <div class="nav__menu">
+    <a href="#" class="menu--item">Features</a>
+    <a href="#" class="menu--item">Pricing</a>
+    <a href="#" class="menu--item">Contact</a>
+    <a href="#" class="menu--item">Login</a>
+  </div>
+</nav>
 
-  A Simple Bookmark Manager
+  <!-- Hero Section-->
+  <div class="hero">
+    <div class="hero__box">
+      <div class="box-items">
+        <h1 class="items-header">A Simple Bookmark Manager</h1>
+        <p class="items-desc">
+          A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="items-buttons">
+          <a href="#" class="btn btn-blue">Get it on Chrome</a>
+          <a href="#" class="btn btn-grey">Get it on Firefox</a>
+        </div>
+      </div>
+      <div class="box-image">
+        <img src="images/illustration-hero.svg" alt="hero" class="image-hero">
+      </div>
+    </div>
+  </div>
+ 
+<!-- Features Section-->
+  <div class="features">
+    <div class="features__intro">
+      <h2 class="features-header">Features</h2>
+      <p class="features-desc">Our aim is to make it quick and easy for you to access your favourite websites. 
+          Your bookmarks sync between your devices so you can access them on the go.</p>
+    </div>
+    <div class="features__options">
+      <a href="#" class="features-option active">Simple Bookmarking</a>
+      <a href="#" class="features-option">Speedy Searching</a>
+      <a href="#" class="features-option">Easy Sharing</a>
+    </div> 
+  </div>
+<!-- Features SUB-Section-->
+<div class="features-sub">
+  <div class="subFeatures__bookmarking">
+    <div class="bookmarking-image">
+      <img src="images/illustration-features-tab-1.svg" alt="bookmark">
+    </div>
+    <div class="bookmarking-text">
+      <h3 class="bookmarking--header">Bookmark in one click</h3>
+      <p class="bookmarking--desc">
+          Organize your bookmarks however you like. Our simple drag-and-drop interface 
+          gives you complete control over how you manage your favourite sites.
+      </p>
+      <div class="bookmarking-btn">
+        <a href="#" class="btn btn-blue"></a>
+      </div>
+    </div>
+  </div>
+  <div class="subFeatures__searching">
+    <div class="searching-image">
+      <img src="images/illustration-features-tab-1.svg" alt="bookmark">
+    </div>
+    <div class="searching-text">
+      <h3 class="searching--header">Bookmark in one click</h3>
+      <p class="searching--desc">
+          Organize your bookmarks however you like. Our simple drag-and-drop interface 
+          gives you complete control over how you manage your favourite sites.
+      </p>
+      <div class="searching-btn">
+        <a href="#" class="btn btn-blue"></a>
+      </div>
+    </div>
+  </div>
+  <div class="subFeatures__sharing">
+    
+  </div>
+</div>
+  
 
-  A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.
+  
 
-  Get it on Chrome
-  Get it on Firefox
+  
 
-  Features
-
-  Our aim is to make it quick and easy for you to access your favourite websites. 
-  Your bookmarks sync between your devices so you can access them on the go.
-
-  Simple Bookmarking
-  Speedy Searching
-  Easy Sharing
-
-  Bookmark in one click
-
-  Organize your bookmarks however you like. Our simple drag-and-drop interface 
-  gives you complete control over how you manage your favourite sites.
+  
 
   More Info
 
@@ -130,5 +193,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
