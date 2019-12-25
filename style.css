@@ -28,13 +28,15 @@ body {
 .navbar {
   margin: 0 auto;
   text-align: center;
+  max-width: 82.93%;
+  padding: 4rem 0;
 }
 
 .nav__logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 90%;
+  /* max-width: 90%; */
   margin: 0 auto;
   text-align: center;
 }
@@ -49,3 +51,74 @@ button {
   padding: 10px 20px;
 }
 
+.menu--item {
+  list-style: none;
+  text-decoration: none;
+  color: var(--Very-Dark-Blue);
+  text-transform: uppercase;
+}
+
+.nav__menu {
+  display: none;
+}
+
+
+/* Hero Section */
+  .hero {
+    position: relative;
+  }
+
+  .blue-thingy {
+    position: absolute;
+    top: 6rem;
+    right: 0px;
+    border-bottom-left-radius: 100px;
+    background-color: var(--Soft-Blue);
+    width: 30rem;
+    height: 21rem;
+    z-index: 1;
+  }
+
+  .hero__box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .box-image {
+    order: -1;
+    z-index: 2;
+  }
+
+  .box-items {
+    max-width: 82.933%;
+    margin: 0 auto;
+    text-align: center;
+    height: 27.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .items-header {
+    font-size: 3rem;
+  }
+
+  .items-desc {
+    font-size: 1.5rem;
+    color: var(--Grayish-Blue);
+    line-height: 1.7em;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+  .btn-blue {
+    background-color: var(--Soft-Blue);
+    color: #fff;
+  }
