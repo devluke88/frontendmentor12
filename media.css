@@ -5,5 +5,31 @@
 
 @media (min-width: 768px) {
 
+    /* NAVBAR */
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    .nav__logo {
+        text-align: left;
+        margin: 0;
+    }
+
+    .nav__menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu--item {
+        margin-left: 2rem;
+    }
    
 }
