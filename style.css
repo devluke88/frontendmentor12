@@ -107,6 +107,7 @@ button {
     font-size: 3rem;
   }
 
+  p,
   .items-desc,
   .features-desc {
     font-size: 1.5rem;
@@ -140,6 +141,10 @@ button {
 
 
   /* Features Section */
+  .features {
+    margin-bottom: 8rem;
+  }
+
   .features__intro {
     max-width: 82.933%;
     margin: 0 auto;
@@ -149,4 +154,75 @@ button {
 
   .features-header {
     font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .features-desc {
+    padding-bottom: 4rem;
+  }
+
+  .features__options {
+    max-width: 82.93%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features__options a {
+    border-top: 2px solid hsla(231, 69%, 60%, 20%);
+    padding: 2.5rem 0 1.5rem 0;
+  }
+
+  .features__options a:last-child {
+    border-bottom: 2px solid hsla(231, 69%, 60%, 20%);
+  }
+
+  .features-option {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--Very-Dark-Blue);
+    letter-spacing: 0.05em;
+  }
+
+  .features-sub {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .blue-thingy2 {
+    position: absolute;
+    top: 4rem;
+    left: 0px;
+    border-bottom-right-radius: 100px;
+    background-color: var(--Soft-Blue);
+    width: 30rem;
+    height: 20rem;
+    z-index: -1;
+  }
+
+  .bookmarking-image {
+    max-width: 82.93%;
+    margin: 0 auto;
+    z-index: 2;
+    margin-bottom: 5rem;
+  }
+
+  .subfeatures-text {
+    max-width: 82.93%;
+    margin: 0 auto;
+  }
+
+  .subfeatures--header {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .subfeatures--desc {
+    padding-bottom: 4rem;
+  }
+
+  .md-screen {
+    display: none;
   }
