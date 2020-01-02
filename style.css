@@ -339,5 +339,46 @@ button {
 }
 
 .more-info {
-  margin: 5rem 0 10rem 0;
+  margin: 5rem 0 15rem 0;
+}
+
+/* CTA CONTACT */
+.cta-container {
+  background-color: var(--Soft-Blue);
+  padding: 6rem 0 4rem 0;
+}
+
+.cta {
+  max-width: 82.93%;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.cta__header3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+.cta__header2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.label {
+  display: none;;
+}
+
+form.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  border-radius: 10px;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
