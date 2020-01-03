@@ -240,24 +240,34 @@
   <div class="cta">
     <h3 class="cta__header3">35,000+ already joined</h3>
     <h2 class="cta__header2">Stay up-to-date with what we’re doing</h2>
-    <form class="contact-us" action="submit">
+    <form class="contact-us" action="#">
       <label for="email" class="label">Email</label>
       <input id="email" type="email" name="email-address" placeholder="Enter your email address" required>
-      <button class="btn-red"  type="submit">Contact Us</button>
+      <a for="email" class="btn btn-red" href="#" type="submit">Contact us</a>
       <!-- onClick="validation()" -->
     </form>
   </div>
 </div>
 
-  <footer>
-    <p class="attribution">
-      Features
-      Pricing
-      Contact
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="http://www.lukenow.com">lukenow.com</a>.
-    </p>
-  </footer>
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<!-- FOOTER -->
+<footer>
+    <div class="footer-menu">
+      <img src="images/logo-bookmark_white.svg" alt="logo">
+      <ul class="footer-menu__items">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Contact</li> 
+      </ul>
+      <ul class="social-icons">
+        <li><ion-icon name="logo-facebook"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+      </ul>
+    </div>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="http://www.lukenow.com">lukenow.com</a>.
+  </p>
+</footer>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
