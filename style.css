@@ -389,6 +389,11 @@ form.contact-us {
 footer {
   background-color: var(--Very-Dark-Blue);
   color: #fff;
+  padding: 4rem 0 4rem 0;
+}
+
+.footer-logo {
+  margin-bottom: 4rem;
 }
 
 .footer-menu {
@@ -403,4 +408,39 @@ ul {
 
 .footer-menu__items {
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu__item {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.07em;
+  padding-bottom: 3rem;
+  transition: all 0.4s;
+}
+
+.footer-menu__item:hover {
+  color: var(--Soft-Red);
+}
+
+.social-icons {
+  margin: 0 auto;
+  display: flex;
+  width: 8.8rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-social-icon {
+  font-size: 3rem;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.footer-social-icon:hover {
+  color: var(--Soft-Red);
 }
