@@ -54,10 +54,39 @@ button {
 }
 
 .menu--item {
+  font-size: 1.3rem;
+  font-weight: 400;
   list-style: none;
   text-decoration: none;
   color: var(--Very-Dark-Blue);
   text-transform: uppercase;
+  transform: ALL 0.4S;
+  letter-spacing: 0.05em;
+}
+
+.menu--item:hover {
+  color: var(--Soft-Red);
+}
+
+.login {
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px var(--Blue-shadow);
+  color: #fff;
+  background-color: var(--Soft-Red);
+  padding: 1.1rem 3.2rem 1.1rem 3.2rem;
+  margin-left: 2.5rem;
+  border: 2px solid var(--Soft-Red);
+  transform: all 0.4s;
+}
+
+.login:hover {
+  color: var(--Soft-Red);
+  background-color: #fff;
+  border: 2px solid var(--Soft-Red);
 }
 
 .nav__menu {
