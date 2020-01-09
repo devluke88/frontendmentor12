@@ -13,7 +13,8 @@
     .navbar {
         display: flex;
         justify-content: space-between;
-        max-width: 90%;
+        width: 84.37%;
+        max-width: 1215px;
         margin: 0 auto;
         padding: 2rem 0;
     }
@@ -29,8 +30,62 @@
         align-items: center;
     }
 
-    .menu--item {
-        margin-left: 2.5rem;
+    .menu--item,
+    .login {
+        margin-left: 3rem;
+    }
+
+    .login {
+        margin-right: 10rem;
+    }
+    
+
+    /*HERO*/
+    .hero {
+        margin-top: 11rem;
+    }
+
+    .blue-thingy {
+        top: 15rem;
+        width: 51.5rem;
+        height: 35.2rem;
+        border-bottom-left-radius: 200px;
+    }
+
+    .hero__box {
+        width: 84.37%;
+        max-width: 1215px;
+        flex-direction: row;
+        justify-content: flex-start;  
+    }
+
+    .box-image {
+        order: 0;
+    }
+
+    .box-items {
+        max-width: 54rem;
+        margin-right: 5rem;
+        text-align: left;
+        align-self: center;
+    }
+
+    .items-header {
+        font-size: 4.8rem;
+        margin-bottom: 4rem;
+    }
+
+    .items-desc {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .items-buttons {
+        justify-content: flex-start;
+    }
+
+    .btn-grey {
+        margin-left: 1.5rem;
     }
    
 }

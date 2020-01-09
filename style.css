@@ -38,7 +38,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 90%; */
   margin: 0 auto;
   text-align: center;
 }
@@ -61,7 +60,7 @@ button {
   color: var(--Very-Dark-Blue);
   text-transform: uppercase;
   transform: ALL 0.4S;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .menu--item:hover {
@@ -77,7 +76,7 @@ button {
   box-shadow: 0px 5px 5px var(--Blue-shadow);
   color: #fff;
   background-color: var(--Soft-Red);
-  padding: 1.1rem 3.2rem 1.1rem 3.2rem;
+  padding: 1rem 3.2rem 0.9rem 3.2rem;
   margin-left: 2.5rem;
   border: 2px solid var(--Soft-Red);
   transform: all 0.4s;
@@ -158,13 +157,29 @@ button {
     box-shadow: 0px 5px 5px var(--Blue-shadow);
   }
 
+  .btn:hover {
+    padding: 1rem 1.3rem 1.4rem 1.3rem;
+  }
+
   .btn-blue {
     background-color: var(--Soft-Blue);
     color: #fff;
   }
 
+  .btn-blue:hover {
+    background-color: #fff;
+    color: var(--Soft-Blue);
+    border: 2px solid var(--Soft-Blue);
+  }
+
   .btn-grey {
     background-color: var(--Gray-light);
+    color: var(--Very-Dark-Blue);
+  }
+
+  .btn-grey:hover {
+    border: 2px solid var(--Very-Dark-Blue);
+    background-color: #fff;
     color: var(--Very-Dark-Blue);
   }
 
