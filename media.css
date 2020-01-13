@@ -1,3 +1,12 @@
+:root {
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+    --Gray-light: #F7F7F7;
+    --Blue-shadow: rgba(83, 104, 223, 0.2);
+  }
+
 @media (min-width: 375px) {
 
    
@@ -45,6 +54,44 @@
 
     .btn-grey {
         margin-left: 1.5rem;
+    }
+
+    .features__intro {
+        max-width: 54rem;
+    }
+
+    .features-desc {
+        font-size: 1.8rem;
+    }
+
+    .features__options {
+        flex-direction: row;
+        justify-content:center;
+        max-width: 73rem;
+        width: 100%;
+    }
+
+    .features__options a {
+        flex: 1;
+        border-top: none;
+        border-bottom: 2px solid hsla(231, 69%, 60%, 20%);
+        padding-bottom: 2rem;
+        position: relative;
+    }
+
+    .features__options a:hover {
+        color: var(--Soft-Red);
+    }
+
+    .features__options a:hover:before {
+        content: " ";
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        border-bottom: 3px solid var(--Soft-Red);
+        
     }
 }
 
