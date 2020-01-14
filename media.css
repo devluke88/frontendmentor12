@@ -76,23 +76,8 @@
         border-top: none;
         border-bottom: 2px solid hsla(231, 69%, 60%, 20%);
         padding-bottom: 2rem;
-        position: relative;
     }
 
-    .features__options a:hover {
-        color: var(--Soft-Red);
-    }
-
-    .features__options a:hover:before {
-        content: " ";
-        position: absolute;
-        top: 5px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-bottom: 3px solid var(--Soft-Red);
-        
-    }
 }
 
     @media (min-width: 1024px) {
@@ -143,5 +128,40 @@
         .btn-grey {
             margin-left: 1.5rem;
         }
+
+        .subFeatures__bookmarking {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            max-width: 82.93%;
+            margin: 0 auto;
+        }
+
+        .bookmarking-image {
+            flex: 1;
+        }
+
+        .subfeatures-text {
+            flex: 1;
+            text-align: left;
+            padding-left: 12.6rem;
+        }
+
+        .subfeatures--header {
+            font-size: 3.2rem;
+            margin-top: 5rem;
+        }
+
+        .subfeatures--desc {
+            font-size: 1.8rem;
+        }
+
+        .bookmarking-btn {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .md-screen {
+            display: block;
+        }
     }
-}

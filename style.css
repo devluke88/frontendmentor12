@@ -217,11 +217,26 @@ button {
   .features__options a {
     border-top: 2px solid hsla(231, 69%, 60%, 20%);
     padding: 2.5rem 0 1.5rem 0;
+    position: relative;
   }
 
   .features__options a:last-child {
     border-bottom: 2px solid hsla(231, 69%, 60%, 20%);
   }
+
+  .features__options a:hover {
+    color: var(--Soft-Red);
+}
+
+.features__options a:hover:before {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-bottom: 3px solid var(--Soft-Red);  
+}
 
   .features-option {
     text-decoration: none;
