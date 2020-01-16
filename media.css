@@ -226,4 +226,20 @@
         .padding90 {
             margin-top: 9rem;
         }
+
+        .faq {
+            max-width: 54rem;
+        }
+
+        .faq__header {
+            font-size: 3.2rem;
+        }
+
+        .faq__desc {
+            font-size: 1.8rem;
+        }
+
+        .faq__questions {
+            text-align: left;
+        }
     }
