@@ -279,6 +279,18 @@
             max-width: 44.3rem;
             flex-direction: row;
             justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        #email {
+            flex: 2;
+            margin-right: 2rem;
+        }
+
+        .btn-red {
+            flex: 1;
+        }
+
         }
 
         .footer {

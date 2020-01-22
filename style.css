@@ -434,6 +434,7 @@ form.contact-us {
 }
 
 #email {
+  font-size: 1.4rem;
   border: none;
   border-radius: 5px;
   padding: 1.2rem 1.5rem 1.6rem 1.5rem;
@@ -442,8 +443,16 @@ form.contact-us {
 
 .btn-red {
   background-color: var(--Soft-Red);
+  padding: 1.2rem 1.5rem 1.6rem 1.5rem;
   color: #fff;
   font-size: 1.4rem;
+}
+
+.btn-red:hover {
+  border: 2px solid var(--Soft-Red);
+  background-color: #fff;
+  padding: 1.2rem 1.5rem 1.6rem 1.5rem;
+  color: var(--Soft-Red);
 }
 
 footer {
